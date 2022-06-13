@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-radius: 20px;
+    box-sizing: border-box;
+  }
+
+.container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid  rgb(174, 178, 199);
+    width: 55%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgb(174, 178, 199);
+}
+header{
+    font-size: 50px;
+    margin-bottom: 60px;
+    textAlign: 'center';
+     fontWeight: 'heavy';
+     marginTop: '20px' ;
+}
+.input-field, form .button{
+    margin: 25px 0;
+    position: relative;
+    height: 50px;
+    width: 100%;
+}
+
+.input-field {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.input-field input{
+
+    padding: 10px;
+    margin-top: 30px;
+    width: 300px;
+    border: 1px solid gray;
+    outline: none;
+}
+/* form .button{
+    padding: 5px 5px;
+    margin-top: 340px;
+    overflow: hidden;
+    z-index: 100;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} */
+
+/* .button button{
+    width: 100%;
+    height: 78%;
+    color: rgb(10, 10, 10);
+    font-size: 20px;
+    cursor: pointer;
+    font-family: sans-serif;
+} */
+#user{
+    color: brown;
+}
+#pass{
+    color: brown;
+}
+.LoginLogo{
+	display: flex;
+	width: 200px;
+	object-fit: contain;
+	/* margin-top: 35px; */
+ } 
+
+ .signInPageBtn {
+    margin-top: 250px;
+    margin-bottom: 20px;
+    display: flex;
+    padding: 10px;
+    background-color: #c7d889;
+ }
+ .signInForm {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
